@@ -1,0 +1,44 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.banner .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner h1{
+  color: azure;
+  font-size: 64px;
+  font-family: "Alice", serif;
+}
+
+.banner p{
+ color: #a2c4ac;
+ font-size: 24px;
+ text-shadow: 3px 3px 4px black;
+}
+
+.banner a{
+  background-color: #a2c4ac;
+  color: azure;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+  font-size: 24px;
+  width: 120px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.banner a:hover{
+  color: #5A6C57;
+  border: 4px 4px solid black;
+}
